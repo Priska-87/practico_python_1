@@ -1,4 +1,4 @@
-"""Suma: Priscila Kwiatkowski Aula 3"""
+"""Función Suma: Priscila Kwiatkowski Aula 3"""
 
 num1= int(input("Ingrese un valor numérico: "))
 num2= int(input("Ingrese un valor numérico: "))

@@ -10,9 +10,6 @@ def suma (num1, num2, num3):
 def resta(a,b):
     return (a - b)
 
-<<<<<<< Updated upstream
-#print(resta(10,5))
-=======
 
 # producto : Eric diaz
 
@@ -62,4 +59,5 @@ def reiniciar():
     programa()
 
 programa()
->>>>>>> Stashed changes
+
+

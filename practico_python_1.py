@@ -13,8 +13,8 @@ def resta(a,b):
 
 # producto : Eric diaz
 
-def producto(numero_1,numero_2):
-    return (numero_1*numero_2)
+def producto(numero_1,numero_2,numero_3,numero_4):
+    return (numero_1*numero_2*numero_3*numero_4)
 
 #imprimir : Aaron Cortez
 def imprimir(texto,valor):
@@ -37,13 +37,15 @@ def programa():
         imprimir("el resultado de la resta es: ", resta(a,b))
 
     elif operacion == 3:
-        print ("ingresa dos números")
+        print ("Ingresa cuatro números")
         numero_1 = int(input("Introduce tu primer número: "))
         numero_2 = int(input("Introduce tu segundo número: "))
+        numero_3 = int(input("Introduce tu tercer número: "))
+        numero_4 = int(input("Introduce tu cuarto número: "))
 
-        mensaje = "RESULTADO: El producto de " + str(numero_1) + " * " + str(numero_2) + " es igual a: "
+        mensaje = "RESULTADO: El producto de " + str(numero_1) + " * " + str(numero_2) + " * " + str(numero_3) + " * " + str(numero_4) + " es igual a: "
 
-        imprimir(mensaje,producto(numero_1,numero_2))
+        imprimir(mensaje,producto(numero_1,numero_2,numero_3,numero_4))
     
     else:
         print("ingrese un valor valido: (1, 2 o 3)")

@@ -10,7 +10,6 @@ def suma (num1, num2, num3):
 def resta(a,b):
     return (a - b)
 
-
 # producto : Eric diaz
 
 def producto(numero_1,numero_2,numero_3,numero_4):
@@ -57,9 +56,9 @@ def programa():
         reiniciar()
     elif nuevaOperacion == 2:
         print("Usted a elegido No")
+        
 def reiniciar():
     programa()
 
 programa()
-
 
